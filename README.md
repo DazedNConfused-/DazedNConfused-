@@ -1,4 +1,4 @@
-### Hi there 👋
+<!-- ### Hi there 👋 -->
 
 <!-- If you're using "master" as default branch -->
 ![Metrics](https://github.com/DazedNConfused-/DazedNConfused-/blob/master/github-metrics.svg)
