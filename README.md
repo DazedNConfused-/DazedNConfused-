@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+<!-- If you're using "master" as default branch -->
+![Metrics](https://github.com/DazedNConfused-/DazedNConfused-/blob/master/github-metrics.svg)
+
 <!--
 **DazedNConfused-/DazedNConfused-** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
