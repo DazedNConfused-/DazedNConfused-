@@ -28,11 +28,16 @@ jobs:
           plugin_languages: yes
           plugin_languages_colors: github
           plugin_languages_ignored: C++
-          plugin_languages_limit: 10
+          plugin_languages_limit: 20
           plugin_languages_skipped: CoverAO
-          plugin_languages_threshold: 0%
+          plugin_languages_threshold: 51%
           plugin_licenses: yes
           plugin_licenses_legal: yes
+          plugin_licenses_ratio: yes
           plugin_notable: yes
-          repositories_affiliations: owner, COLLABORATOR
+          plugin_topics: yes
+          plugin_topics_limit: 50
+          plugin_topics_mode: mastered
+          plugin_topics_sort: activity
+          repositories_affiliations: owner, COLLABORATOR, ORGANIZATION_MEMBER
           repositories_forks: yes
