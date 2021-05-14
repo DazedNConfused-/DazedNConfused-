@@ -34,6 +34,5 @@ jobs:
           plugin_licenses_legal: yes
           plugin_licenses_ratio: yes
           plugin_notable: yes
-          plugin_topics: yes
           repositories_affiliations: owner, COLLABORATOR, ORGANIZATION_MEMBER
           repositories_forks: yes
