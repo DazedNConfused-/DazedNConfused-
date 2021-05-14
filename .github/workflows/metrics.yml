@@ -27,7 +27,7 @@ jobs:
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
           plugin_languages_colors: github
-          plugin_languages_ignored: C++, HTML
+          plugin_languages_ignored: C++, HTML, Visual Basic
           plugin_languages_limit: 20
           plugin_languages_skipped: CoverAO
           plugin_licenses: yes
@@ -35,8 +35,5 @@ jobs:
           plugin_licenses_ratio: yes
           plugin_notable: yes
           plugin_topics: yes
-          plugin_topics_limit: 50
-          plugin_topics_mode: mastered
-          plugin_topics_sort: starred
           repositories_affiliations: owner, COLLABORATOR, ORGANIZATION_MEMBER
           repositories_forks: yes
