@@ -36,3 +36,7 @@ jobs:
           plugin_notable: yes
           repositories_affiliations: owner, COLLABORATOR, ORGANIZATION_MEMBER
           repositories_forks: yes
+          plugin_topics: yes
+          plugin_topics_limit: 30
+          plugin_topics_mode: starred
+          plugin_topics_sort: stars
