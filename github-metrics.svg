@@ -1180,19 +1180,19 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="30" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                 </g>
                             </svg>
@@ -1284,7 +1284,7 @@
             </div>
                                 <div class="field">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 01-.779-.406z"/></svg>
-              2.83 GB used
+              2.82 GB used
             </div>
                             </section>
                             <section>
@@ -1324,14 +1324,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="192.81867374221943" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="192.81867374221943" y="0" width="158.874710940177" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="351.69338468239647" y="0" width="40.88608294932736" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="392.57946763172384" y="0" width="25.704167097396187" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="418.28363472911997" y="0" width="18.76560228012935" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="437.04923700924934" y="0" width="10.902220508068137" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="447.9514575173175" y="0" width="8.97812366045162" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="456.92958117776914" y="0" width="3.0704188222308892" height="8" fill="#00B4AB"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="192.81350512776567" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="192.81350512776567" y="0" width="158.88278277518774" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="351.6962879029534" y="0" width="40.88498697456937" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="392.58127487752273" y="0" width="25.703478082546102" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="418.2847529600689" y="0" width="18.76509925746408" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="437.04985221753293" y="0" width="10.901928267833297" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="447.95178048536627" y="0" width="8.977882996729491" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="456.92966348209575" y="0" width="3.0703365179042605" height="8" fill="#00B4AB"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1402,8 +1402,8 @@
                             <div class="label" title="Cascading Style Sheets (CSS) is a language used most often to style and improve upon the appearance of views.">css</div>
                             <div class="label" title="Algorithms are self-contained sequences that carry out a variety of tasks.">algorithm</div>
                             <div class="label" title="Node.js is a tool for executing JavaScript in a variety of environments.">node.js</div>
-                            <div class="label" title="Docker is a platform built for developers to build and run applications.">docker</div>
                             <div class="label" title="Bootstrap is an HTML, CSS, and JavaScript framework.">bootstrap</div>
+                            <div class="label" title="Docker is a platform built for developers to build and run applications.">docker</div>
                             <div class="label" title="Git is the most widely used version control system.">git</div>
                             <div class="label" title="Amazon Web Services provides on-demand cloud computing platforms on a subscription basis.">amazon web services</div>
                             <div class="label" title="An API (Application Programming Interface) is a collection of protocols and subroutines for building software.">api</div>
@@ -1412,7 +1412,7 @@
                             <div class="label" title="Google LLC is an American multinational technology company that specializes in Internet-related services and products.">google</div>
                             <div class="label" title="An awesome list is a list of awesome things curated by the community.">awesome lists</div>
                             <div class="label" title="Go is a programming language built to resemble a simplified version of the C programming language.">go</div>
-                            <div class="label" title="SQL, Angular, MySQL, Django, Data visualization, Raspberry Pi, GitHub API, JSON, Chrome, Front end, Bash, Terminal, TypeScript, Bot, Code quality, Ubuntu, React Native, macOS, jQuery, ES6, Command line interface, Spring Boot, Rust, Code review, MongoDB, Security, Framework, HTTP, Firefox, PostgreSQL, Windows, Ajax, npm, Electron, Markdown, Telegram, Compiler, Shell, LaTeX, Mobile, Web app, Operating system, Continuous integration, Sass, Server, Documentation, Redux, Homebrew, NoSQL, Deployment, Material design, Webpack, Library, Serverless, Project management, Maven, ESLint, Gradle, Testing, Scala, Dependency management, Package manager, Monitoring, Jekyll, Localization">and 65 more...</div>
+                            <div class="label" title="SQL, Angular, MySQL, Django, Data visualization, Raspberry Pi, GitHub API, JSON, Chrome, Front end, Bash, Terminal, TypeScript, Bot, Code quality, Ubuntu, React Native, macOS, ES6, jQuery, Command line interface, Spring Boot, Rust, Code review, MongoDB, Security, Framework, HTTP, Firefox, PostgreSQL, Windows, Ajax, npm, Electron, Markdown, Telegram, Compiler, Shell, LaTeX, Mobile, Web app, Operating system, Continuous integration, Sass, Server, Documentation, Redux, Homebrew, NoSQL, Deployment, Material design, Webpack, Library, Serverless, Project management, Maven, ESLint, Gradle, Testing, Scala, Dependency management, Package manager, Monitoring, Jekyll, Localization">and 65 more...</div>
                         </div>
                     </section>
                 </div>
@@ -3392,6 +3392,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-5.1, 9)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -3445,7 +3450,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="79.7662006094305 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="79.85115626769405 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -4205,7 +4210,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated Tue, 29 Jun 2021 00:14:19 (timezone America/Buenos_Aires) with lowlighter/metrics@3.10.0</span>
+                <span>Last updated Wed, 30 Jun 2021 00:14:44 (timezone America/Buenos_Aires) with lowlighter/metrics@3.10.0</span>
             </footer>
             <div id="metrics-end"></div>
         </div>
