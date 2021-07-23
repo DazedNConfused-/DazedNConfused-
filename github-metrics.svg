@@ -1180,17 +1180,17 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="15" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
@@ -1229,7 +1229,7 @@
           </div>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-            140 issue comments
+            141 issue comments
           </div>
                     </section>
                     <section>
@@ -1276,7 +1276,7 @@
             </div>
                                 <div class="field">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-              907 Releases
+              908 Releases
             </div>
                                 <div class="field">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"/></svg>
@@ -1324,14 +1324,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="204.10843333214794" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="204.10843333214794" y="0" width="163.13372217137555" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="367.24215550352346" y="0" width="34.452541072646135" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="401.69469657616963" y="0" width="21.568704851675754" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="423.2634014278454" y="0" width="16.29088708073124" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="439.55428850857663" y="0" width="9.14965495694574" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="448.7039434655224" y="0" width="8.44108206340089" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="457.14502552892327" y="0" width="2.8549744710767406" height="8" fill="#2b7489"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="204.12584741853115" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="204.12584741853115" y="0" width="163.1228565374264" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="367.2487039559575" y="0" width="34.45010881661786" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="401.69881277257537" y="0" width="21.567182159567587" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="423.265994932143" y="0" width="16.28973698825404" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="439.555731920397" y="0" width="9.14900901610269" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="448.70474093649966" y="0" width="8.440486145883789" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="457.1452270823835" y="0" width="2.8547729176164833" height="8" fill="#2b7489"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1412,7 +1412,7 @@
                             <div class="label" title="Google LLC is an American multinational technology company that specializes in Internet-related services and products.">google</div>
                             <div class="label" title="An awesome list is a list of awesome things curated by the community.">awesome lists</div>
                             <div class="label" title="Go is a programming language built to resemble a simplified version of the C programming language.">go</div>
-                            <div class="label" title="SQL, Angular, MySQL, Django, Data visualization, Raspberry Pi, GitHub API, JSON, Chrome, Front end, Bash, Terminal, Bot, TypeScript, Code quality, Ubuntu, React Native, macOS, ES6, Command line interface, jQuery, Code review, Rust, Spring Boot, MongoDB, Security, Framework, HTTP, Firefox, Windows, PostgreSQL, Ajax, npm, Electron, Markdown, Telegram, Compiler, Shell, LaTeX, Mobile, Web app, Operating system, Continuous integration, Sass, Documentation, Server, Redux, Homebrew, NoSQL, Deployment, Material design, Webpack, Library, Serverless, Project management, ESLint, Maven, Gradle, Testing, Scala, Dependency management, Package manager, Monitoring, Jekyll, Localization">and 65 more...</div>
+                            <div class="label" title="SQL, Angular, MySQL, Django, Data visualization, Raspberry Pi, GitHub API, JSON, Chrome, Front end, Bash, Terminal, Bot, TypeScript, Code quality, Ubuntu, React Native, macOS, Command line interface, ES6, jQuery, Code review, Rust, Spring Boot, MongoDB, Security, Framework, HTTP, Firefox, Windows, PostgreSQL, Ajax, npm, Electron, Markdown, Telegram, Compiler, Shell, LaTeX, Mobile, Operating system, Web app, Continuous integration, Sass, Server, Documentation, Redux, Homebrew, NoSQL, Deployment, Material design, Webpack, Library, Serverless, Project management, ESLint, Maven, Gradle, Testing, Scala, Dependency management, Package manager, Monitoring, Jekyll, Localization">and 65 more...</div>
                         </div>
                     </section>
                 </div>
@@ -1469,9 +1469,9 @@
                                 <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.6666666666666665 1.7,2.6666666666666665 z"/>
                             </g>
                             <g transform="translate(-5.1, 8.333333333333332)">
-                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.6666666666666665 0,1.6666666666666665 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.6666666666666665 1.7,2.6666666666666665 z"/>
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.6666666666666665 0,1.6666666666666665 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.6666666666666665 1.7,2.6666666666666665 z"/>
                             </g>
                             <g transform="translate(-6.8, 8.666666666666668)">
                                 <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
@@ -3402,6 +3402,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-8.5, 11)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -3455,7 +3460,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="81.71985209601723 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="81.80481806107305 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -3662,7 +3667,7 @@
                   Developer
                   
                     <span class="gh">
-                      ranked 2.92m out of 74m users
+                      ranked 2.93m out of 74m users
                     </span>
                   
                 </div>
@@ -3879,7 +3884,7 @@
                   Inspirationer
                   
                     <span class="gh">
-                      ranked 3.54m out of 238m repositories
+                      ranked 3.55m out of 238m repositories
                     </span>
                   
                 </div>
@@ -4215,7 +4220,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated Thu, 22 Jul 2021 00:18:10 (timezone America/Buenos_Aires) with lowlighter/metrics@3.10.0</span>
+                <span>Last updated Fri, 23 Jul 2021 00:18:45 (timezone America/Buenos_Aires) with lowlighter/metrics@3.10.0</span>
             </footer>
             <div id="metrics-end"></div>
         </div>
