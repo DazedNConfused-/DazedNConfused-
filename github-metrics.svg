@@ -1287,18 +1287,18 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
@@ -1431,14 +1431,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="201.8311525928114" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="201.8311525928114" y="0" width="162.84076339657008" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="364.6719159893815" y="0" width="33.68988769298813" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="398.36180368236967" y="0" width="21.091068536805967" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="419.4528722191756" y="0" width="19.807082769896105" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="439.2599549890718" y="0" width="8.957639250392731" height="8" fill="#336790"/>
-                    <rect mask="url(#languages-bar)" x="448.2175942394645" y="0" width="8.316560731653633" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="456.5341549711181" y="0" width="3.4658450288819393" height="8" fill="#2b7489"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="201.82194714077187" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="201.82194714077187" y="0" width="162.83333628327128" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="364.65528342404315" y="0" width="33.68835110836583" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="398.343634532409" y="0" width="21.090106580153662" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="419.43374111256264" y="0" width="19.82715982309459" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="439.2609009356573" y="0" width="8.95723069543257" height="8" fill="#336790"/>
+                    <rect mask="url(#languages-bar)" x="448.2181316310899" y="0" width="8.316181416072435" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="456.5343130471623" y="0" width="3.4656869528377805" height="8" fill="#2b7489"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1519,7 +1519,7 @@
                             <div class="label" title="Google LLC is an American multinational technology company that specializes in Internet-related services and products.">google</div>
                             <div class="label" title="An awesome list is a list of awesome things curated by the community.">awesome lists</div>
                             <div class="label" title="Go is a programming language built to resemble a simplified version of the C programming language.">go</div>
-                            <div class="label" title="SQL, Angular, MySQL, Django, Data visualization, Raspberry Pi, GitHub API, Chrome, JSON, Front end, Bash, Terminal, Bot, Code quality, TypeScript, Ubuntu, Command line interface, React Native, macOS, Code review, jQuery, Rust, es6, MongoDB, HTTP, Spring Boot, Security, Framework, Firefox, Windows, Ajax, PostgreSQL, npm, Electron, Telegram, Markdown, Compiler, Shell, LaTeX, Mobile, Operating system, Web app, Continuous integration, Documentation, Server, Sass, Redux, Homebrew, NoSQL, Deployment, Material design, Library, Webpack, Serverless, Project management, ESLint, Maven, Gradle, Testing, Scala, Dependency management, Package manager, Monitoring, Jekyll, Localization">and 65 more...</div>
+                            <div class="label" title="SQL, Angular, MySQL, Django, Data visualization, Raspberry Pi, GitHub API, Chrome, JSON, Front end, Bash, Terminal, Bot, Code quality, TypeScript, Ubuntu, Command line interface, React Native, macOS, Code review, jQuery, Rust, MongoDB, es6, HTTP, Spring Boot, Security, Framework, Firefox, Windows, Ajax, PostgreSQL, npm, Electron, Telegram, Markdown, Compiler, Shell, LaTeX, Mobile, Operating system, Web app, Continuous integration, Documentation, Server, Sass, Redux, Homebrew, NoSQL, Deployment, Material design, Library, Webpack, Serverless, Project management, ESLint, Maven, Gradle, Testing, Scala, Dependency management, Package manager, Monitoring, Jekyll, Localization">and 65 more...</div>
                         </div>
                     </section>
                 </div>
@@ -3489,6 +3489,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-1.7, 7)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -3543,7 +3548,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="42.77086025169647 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="42.81338770972856 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -4427,7 +4432,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 04/09/2021, 21:17 (timezone America/Buenos_Aires) with lowlighter/metrics@3.13.0</span>
+                <span>Last updated 05/09/2021, 21:19 (timezone America/Buenos_Aires) with lowlighter/metrics@3.13.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
