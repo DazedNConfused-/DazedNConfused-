@@ -35,11 +35,11 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
@@ -224,14 +224,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="198.14238166423132" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="198.14238166423132" y="0" width="165.5634255151282" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="363.7058071793595" y="0" width="32.242839013845824" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="395.9486461932053" y="0" width="21.72937995893088" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="417.6780261521362" y="0" width="20.178530737506957" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="437.8565568896431" y="0" width="10.444292314800869" height="8" fill="#336790"/>
-                    <rect mask="url(#languages-bar)" x="448.30084920444403" y="0" width="7.9926820801545775" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="456.2935312845986" y="0" width="3.7064687154013765" height="8" fill="#2b7489"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="198.05612151566606" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="198.05612151566606" y="0" width="165.49134842812663" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="363.5474699437927" y="0" width="32.22880227894771" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="395.7762722227404" y="0" width="21.920178557791985" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="417.69645078053236" y="0" width="20.169746129970566" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="437.86619691050294" y="0" width="10.439745452089484" height="8" fill="#336790"/>
+                    <rect mask="url(#languages-bar)" x="448.3059423625925" y="0" width="7.989202511887162" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="456.2951448744796" y="0" width="3.7048551255204143" height="8" fill="#2b7489"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -320,15 +320,15 @@
                             <div class="label" title="Node.js is a tool for executing JavaScript in a variety of environments.">node.js</div>
                             <div class="label" title="Bootstrap is an HTML, CSS, and JavaScript framework.">bootstrap</div>
                             <div class="label" title="Docker is a platform built for developers to build and run applications.">docker</div>
-                            <div class="label" title="Git is the most widely used version control system.">git</div>
                             <div class="label" title="Amazon Web Services provides on-demand cloud computing platforms on a subscription basis.">amazon web services</div>
+                            <div class="label" title="Git is the most widely used version control system.">git</div>
                             <div class="label" title="An API (Application Programming Interface) is a collection of protocols and subroutines for building software.">api</div>
                             <div class="label" title="A database is a structured set of data held in a computer, usually a server.">database</div>
                             <div class="label" title="Data structures are a way of organizing and storing data.">data structures</div>
                             <div class="label" title="An awesome list is a list of awesome things curated by the community.">awesome lists</div>
                             <div class="label" title="Google LLC is an American multinational technology company that specializes in Internet-related services and products.">google</div>
                             <div class="label" title="Go is a programming language built to resemble a simplified version of the C programming language.">go</div>
-                            <div class="label" title="SQL, Angular, MySQL, Django, Data visualization, Raspberry Pi, Chrome, GitHub API, JSON, Front end, Bash, Bot, Terminal, Command line interface, Code quality, TypeScript, Ubuntu, Code review, React Native, macOS, Rust, HTTP, jQuery, MongoDB, Security, Spring Boot, Framework, Firefox, Ajax, Windows, es6, PostgreSQL, npm, Telegram, Electron, Markdown, Compiler, Shell, LaTeX, Operating system, Mobile, Continuous integration, Web app, Documentation, Server, Sass, Redux, NoSQL, Homebrew, Deployment, Library, Material design, Webpack, Serverless, Project management, ESLint, Maven, Gradle, Testing, Dependency management, Scala, Package manager, Monitoring, Jekyll, Localization">and 65 more...</div>
+                            <div class="label" title="SQL, Angular, MySQL, Django, Data visualization, Raspberry Pi, Chrome, GitHub API, JSON, Front end, Bash, Bot, Terminal, Command line interface, Code quality, TypeScript, Ubuntu, Code review, React Native, macOS, Rust, HTTP, jQuery, MongoDB, Security, Spring Boot, Framework, Firefox, Ajax, Windows, es6, PostgreSQL, npm, Telegram, Electron, Markdown, Compiler, Shell, LaTeX, Operating system, Mobile, Continuous integration, Web app, Documentation, Server, Sass, Redux, NoSQL, Homebrew, Deployment, Library, Material design, Webpack, Serverless, Project management, ESLint, Maven, Testing, Gradle, Dependency management, Scala, Package manager, Monitoring, Jekyll, Localization">and 65 more...</div>
                         </div>
                     </section>
                 </div>
@@ -2322,6 +2322,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-1.7, 7)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -2377,7 +2382,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="46.83949349760438 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="46.881930184804936 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -3226,7 +3231,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 8 Jan 2022, 21:22:36 (timezone America/Buenos_Aires) with lowlighter/metrics@3.17.0</span>
+                <span>Last updated 9 Jan 2022, 21:22:03 (timezone America/Buenos_Aires) with lowlighter/metrics@3.17.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
