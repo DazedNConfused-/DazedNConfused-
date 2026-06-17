@@ -12,6 +12,10 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           # ── Authentication ──────────────────────────────────────────────
+          # METRICS_TOKEN must have these scopes:
+          #   read:user  → required by achievements (sponsorshipsAsSponsor field)
+          #   repo       → required by languages indepth (clones private repos)
+          # Classic token: check both boxes in GitHub → Settings → Developer settings
           token: ${{ secrets.METRICS_TOKEN }}
 
           # ── Identity & output ───────────────────────────────────────────
@@ -34,11 +38,6 @@ jobs:
           plugin_isocalendar_duration: full-year
 
           # ── Languages ───────────────────────────────────────────────────
-          # NOTE: METRICS_TOKEN needs `repo` scope (classic) or `contents: read`
-          # (fine-grained) for indepth mode to clone and analyze repos.
-          # Also add any email addresses you commit with to commits_authoring.
-          # If you don't want to grant repo scope, remove the two indepth lines
-          # and the plugin will fall back to GitHub's per-repo language API.
           commits_authoring: DazedNConfused-, GLopez@Signiant.com, gonzalo.lopez@wbdcontractor.com, gonzalo.lopez@wbconsultant.com, gonzalo.lopez@super7ui.com, gvigliante@mobeats.io, glopezvigliante@gmail.com
           plugin_languages: yes
           plugin_languages_limit: 8
@@ -49,13 +48,14 @@ jobs:
           plugin_languages_skipped: CoverAO
 
           # ── Coding habits ───────────────────────────────────────────────
+          # plugin_habits_charts disabled: with sparse commit activity the plugin
+          # crashes computing Math.max() on an empty hour/day set (no events in window).
+          # Facts-only mode is safe regardless of activity level.
           plugin_habits: yes
           plugin_habits_from: 200
-          plugin_habits_days: 14
+          plugin_habits_days: 30
           plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic  # FIX: was "graph" — requires D3 (web-instance only)
-          plugin_habits_trim: yes
+          plugin_habits_charts: no
 
           # ── Lines of code ───────────────────────────────────────────────
           plugin_lines: yes
@@ -74,24 +74,38 @@ jobs:
           plugin_reactions_days: 365
           plugin_reactions_display: relative
           plugin_reactions_details: percentage
-          
+
+          # ── People ──────────────────────────────────────────────────────
+          plugin_people: yes
+          plugin_people_types: followers, following
+          plugin_people_limit: 28
+          plugin_people_size: 28
+          plugin_people_shuffle: yes
+
           # ── Achievements ────────────────────────────────────────────────
+          # Requires read:user scope — the graphql query accesses sponsorshipsAsSponsor
+          # which is gated behind that scope. Without it the query throws and the
+          # whole plugin fails with "Unexpected error".
           plugin_achievements: yes
           plugin_achievements_threshold: C
           plugin_achievements_secrets: yes
-          plugin_achievements_display: compact  # FIX: was "detailed" — requires Puppeteer (web-instance only)
+          plugin_achievements_display: compact
           plugin_achievements_limit: 0
 
           # ── Notable contributions ────────────────────────────────────────
           plugin_notable: yes
           plugin_notable_from: all
+          plugin_notable_self: yes
+          plugin_notable_types: commit, pull_request, issue
           plugin_notable_indepth: yes
           plugin_notable_repositories: yes
 
           # ── Topics ──────────────────────────────────────────────────────
+          # icons mode: shows the topic's logo instead of a text label.
+          # Topics without an official icon are silently omitted.
           plugin_topics: yes
-          plugin_topics_limit: 30
-          plugin_topics_mode: labels
+          plugin_topics_limit: 20
+          plugin_topics_mode: icons
           plugin_topics_sort: stars
 
           # ── Recently starred ─────────────────────────────────────────────
