@@ -1,42 +1,100 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Metrics
 on:
-  # Schedule updates (each day at 00:00)
   schedule: [{cron: "0 0 * * *"}]
-  # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["master", "main"]}
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: stalomeow/metrics@projects-v2 # lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
+          # ── Authentication ──────────────────────────────────────────────
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Options
+          # ── Identity & output ───────────────────────────────────────────
           user: DazedNConfused-
           template: classic
-          base: header, activity, community, repositories, metadata
+          filename: github-metrics.svg
+          output_action: commit
           config_timezone: America/Buenos_Aires
-          plugin_achievements: yes
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: X
+          config_animations: yes
+
+          # ── Base sections ───────────────────────────────────────────────
+          base: header, activity, community, repositories, metadata
+          base_hireable: no
+          repositories: 100
+          repositories_forks: yes
+          repositories_affiliations: owner, collaborator, organization_member
+
+          # ── Isometric calendar ──────────────────────────────────────────
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+          # ── Languages ───────────────────────────────────────────────────
           plugin_languages: yes
-          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 0%
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_indepth: yes
           plugin_languages_ignored: C++, C#, HTML, Visual Basic, PLSQL
-          plugin_languages_limit: 20
           plugin_languages_skipped: CoverAO
-          plugin_licenses: yes
-          plugin_licenses_legal: yes
-          plugin_licenses_ratio: yes
+
+          # ── Coding habits ───────────────────────────────────────────────
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
+          plugin_habits_trim: yes
+
+          # ── Lines of code ───────────────────────────────────────────────
+          plugin_lines: yes
+          plugin_lines_sections: base, repositories
+          plugin_lines_repositories_limit: 4
+
+          # ── Issue & PR follow-up ────────────────────────────────────────
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          plugin_followup_indepth: yes
+
+          # ── Reactions ───────────────────────────────────────────────────
+          plugin_reactions: yes
+          plugin_reactions_limit: 200
+          plugin_reactions_limit_issues: 100
+          plugin_reactions_days: 365
+          plugin_reactions_display: relative
+          plugin_reactions_details: percentage
+
+          # ── People ──────────────────────────────────────────────────────
+          plugin_people: yes
+          plugin_people_types: followers, following
+          plugin_people_limit: 28
+          plugin_people_size: 28
+          plugin_people_shuffle: yes
+
+          # ── Achievements ────────────────────────────────────────────────
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_limit: 0
+
+          # ── Notable contributions ────────────────────────────────────────
           plugin_notable: yes
-          repositories_affiliations: owner, COLLABORATOR, ORGANIZATION_MEMBER
-          repositories_forks: yes
+          plugin_notable_from: all
+          plugin_notable_indepth: yes
+          plugin_notable_repositories: yes
+
+          # ── Topics ──────────────────────────────────────────────────────
           plugin_topics: yes
           plugin_topics_limit: 30
-          plugin_topics_mode: starred
+          plugin_topics_mode: labels
           plugin_topics_sort: stars
+
+          # ── Recently starred ─────────────────────────────────────────────
+          plugin_stars: yes
+          plugin_stars_limit: 4
