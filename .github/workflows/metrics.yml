@@ -12,10 +12,10 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           # ── Authentication ──────────────────────────────────────────────
-          # METRICS_TOKEN must have these scopes:
-          #   read:user  → required by achievements (sponsorshipsAsSponsor field)
-          #   repo       → required by languages indepth (clones private repos)
-          # Classic token: check both boxes in GitHub → Settings → Developer settings
+          # METRICS_TOKEN must be a classic token with these scopes:
+          #   read:user  → achievements (queries sponsorshipsAsSponsor via GraphQL)
+          #   repo       → languages indepth (clones private repos to analyze them)
+          # Go to: GitHub → Settings → Developer settings → Personal access tokens (classic)
           token: ${{ secrets.METRICS_TOKEN }}
 
           # ── Identity & output ───────────────────────────────────────────
@@ -38,6 +38,10 @@ jobs:
           plugin_isocalendar_duration: full-year
 
           # ── Languages ───────────────────────────────────────────────────
+          # Requires `repo` scope on METRICS_TOKEN to clone and analyze private repos.
+          # Without it indepth finds nothing ("No push activity found").
+          # Remove the two `plugin_languages_indepth` lines to fall back to the
+          # GitHub API's per-repo primary-language mode (no extra scope needed).
           commits_authoring: DazedNConfused-, GLopez@Signiant.com, gonzalo.lopez@wbdcontractor.com, gonzalo.lopez@wbconsultant.com, gonzalo.lopez@super7ui.com, gvigliante@mobeats.io, glopezvigliante@gmail.com
           plugin_languages: yes
           plugin_languages_limit: 8
@@ -48,14 +52,17 @@ jobs:
           plugin_languages_skipped: CoverAO
 
           # ── Coding habits ───────────────────────────────────────────────
-          # plugin_habits_charts disabled: with sparse commit activity the plugin
-          # crashes computing Math.max() on an empty hour/day set (no events in window).
-          # Facts-only mode is safe regardless of activity level.
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 30
-          plugin_habits_facts: yes
-          plugin_habits_charts: no
+          # Disabled: the plugin scrapes public push events from the GitHub events API.
+          # Private repo activity is invisible without repo scope, so the event window
+          # returns 0 push events, which causes an internal crash (Math.max on an
+          # empty set → -Infinity propagating through the renderer). Once repo scope
+          # is added to the token and the languages section starts working, re-enable
+          # this by uncommenting the lines below.
+          # plugin_habits: yes
+          # plugin_habits_from: 200
+          # plugin_habits_days: 30
+          # plugin_habits_facts: yes
+          # plugin_habits_charts: no
 
           # ── Lines of code ───────────────────────────────────────────────
           plugin_lines: yes
@@ -74,18 +81,11 @@ jobs:
           plugin_reactions_days: 365
           plugin_reactions_display: relative
           plugin_reactions_details: percentage
-
-          # ── People ──────────────────────────────────────────────────────
-          plugin_people: yes
-          plugin_people_types: followers, following
-          plugin_people_limit: 28
-          plugin_people_size: 28
-          plugin_people_shuffle: yes
-
+          
           # ── Achievements ────────────────────────────────────────────────
-          # Requires read:user scope — the graphql query accesses sponsorshipsAsSponsor
-          # which is gated behind that scope. Without it the query throws and the
-          # whole plugin fails with "Unexpected error".
+          # Requires `read:user` scope on METRICS_TOKEN.
+          # The GraphQL query accesses sponsorshipsAsSponsor which is behind that gate.
+          # Without it the query throws → "Unexpected error".
           plugin_achievements: yes
           plugin_achievements_threshold: C
           plugin_achievements_secrets: yes
@@ -93,16 +93,19 @@ jobs:
           plugin_achievements_limit: 0
 
           # ── Notable contributions ────────────────────────────────────────
+          # plugin_notable_self: no → excludes your own DazedNConfused- repos.
+          # plugin_notable_from: all → catches org repos AND external user repos.
+          # plugin_notable_types broadened to also surface PRs/issues, not just commits.
           plugin_notable: yes
+          plugin_notable_self: no
           plugin_notable_from: all
-          plugin_notable_self: yes
           plugin_notable_types: commit, pull_request, issue
           plugin_notable_indepth: yes
           plugin_notable_repositories: yes
 
           # ── Topics ──────────────────────────────────────────────────────
-          # icons mode: shows the topic's logo instead of a text label.
-          # Topics without an official icon are silently omitted.
+          # icons mode: renders the topic's official logo. Topics without an icon
+          # are silently omitted, so limit is set to 20 to account for that.
           plugin_topics: yes
           plugin_topics_limit: 20
           plugin_topics_mode: icons
