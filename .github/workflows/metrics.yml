@@ -34,6 +34,12 @@ jobs:
           plugin_isocalendar_duration: full-year
 
           # ── Languages ───────────────────────────────────────────────────
+          # NOTE: METRICS_TOKEN needs `repo` scope (classic) or `contents: read`
+          # (fine-grained) for indepth mode to clone and analyze repos.
+          # Also add any email addresses you commit with to commits_authoring.
+          # If you don't want to grant repo scope, remove the two indepth lines
+          # and the plugin will fall back to GitHub's per-repo language API.
+          commits_authoring: DazedNConfused-, GLopez@Signiant.com, gonzalo.lopez@wbdcontractor.com, gonzalo.lopez@wbconsultant.com, gonzalo.lopez@super7ui.com, gvigliante@mobeats.io, glopezvigliante@email.com
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_threshold: 0%
@@ -48,7 +54,7 @@ jobs:
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
-          plugin_habits_charts_type: graph
+          plugin_habits_charts_type: classic  # FIX: was "graph" — requires D3 (web-instance only)
           plugin_habits_trim: yes
 
           # ── Lines of code ───────────────────────────────────────────────
@@ -68,19 +74,12 @@ jobs:
           plugin_reactions_days: 365
           plugin_reactions_display: relative
           plugin_reactions_details: percentage
-
-          # ── People ──────────────────────────────────────────────────────
-          plugin_people: yes
-          plugin_people_types: followers, following
-          plugin_people_limit: 28
-          plugin_people_size: 28
-          plugin_people_shuffle: yes
-
+          
           # ── Achievements ────────────────────────────────────────────────
           plugin_achievements: yes
           plugin_achievements_threshold: C
           plugin_achievements_secrets: yes
-          plugin_achievements_display: detailed
+          plugin_achievements_display: compact  # FIX: was "detailed" — requires Puppeteer (web-instance only)
           plugin_achievements_limit: 0
 
           # ── Notable contributions ────────────────────────────────────────
